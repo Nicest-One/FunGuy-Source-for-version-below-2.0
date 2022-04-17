@@ -3,7 +3,6 @@ from discord.ext import commands
 from discord.ext import tasks
 import os
 from replit import db
-from keep_alive import keep_alive
 import random
 import asyncio
 import math
@@ -4613,5 +4612,4 @@ my_secret = os.environ['TheSecret']
 
 
 #BELOW ALL CODE
-keep_alive()
 client.run(my_secret)
